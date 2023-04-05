@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./dist/*.{html,js}'],
+  content: ['./**/*.{html,js}'],
   theme: {
     
     screens: {
@@ -33,8 +33,8 @@ module.exports = {
         '1/2': '50%',
       },
       fontFamily: {
-        Opensans: ['OpenSansExtraBold', 'sans-serif'],
-        sansRegular: ['OpenSansRegular', 'sans-serif'],
+        heading: ['OpenSansExtraBold', 'sans-serif'],
+        SansRegular: ['OpenSansRegular', 'sans-serif'],
 
       },
     },
