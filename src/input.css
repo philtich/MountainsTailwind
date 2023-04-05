@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face{
+        font-family: "OpenSansExtraBold";
+        font-weight: 900;
+        src: url("/assets/fonts/OpenSans-ExtraBold.ttf") format(".ttf");
+    }
+    @font-face{
+        font-family: "OpenSansRegular";
+        font-weight: 400;
+        src: url("/assets/fonts/OpenSans-Regular.ttf") format(".ttf");
+    }
+};
+
+@layer components{
+
+    h2 {@apply text-lg font-sans}
+
+    nav > a {@apply uppercase text-sm font-extrabold font-sans}
+
+    nav >a:hover {@apply hover:underline}
+
+    .buttonPrimary {@apply font-sans bg-blue text-white py-3 px-8 text-sm transition duration-300 ease-in border-blue border-solid border-2 max-w-1/2 text-center}
+
+    .buttonPrimary:hover {@apply text-blue bg-opacity-0}
+
+    .gridDiv {@apply flex items-end aspect-4/3 rounded-xl relative}
+
+    .gridDiv > img {@apply w-full h-full object-cover rounded-xl}
+
+    .gradient{@apply w-full absolute bottom-2 left-3}
+
+    .gradient > span {@apply text-white font-bold p-4 font-sans}
+
+    .imgNews{@apply h-3/5}
+
+    .hoverScale{@apply transition duration-300 ease-in}
+
+    .hoverScale:hover{@apply scale-125}
+
+    p{@apply font-sansRegular}
+    
+    .asideBar{@apply w-12 h-12 flex justify-center items-center transition duration-500 ease-in-out bg-blue}
+
+    .asideBar:hover{@apply w-16}
+    
+    .socialLinks{@apply flex justify-center items-start}
+}

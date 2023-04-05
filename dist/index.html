@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Mountains Tailwind</title>
+</head>
+<body>
+    <header class="flex justify-center p-8 sticky top-0 left-0 z-40 bg-white">
+        <div class="w-10/12 flex justify-between items-center">
+            <a href=""><img class="w-28 hoverScale" src="/assets/gfx/logo.png"></a>
+            <nav class="hidden md:flex gap-4">
+                <a href="">About us</a>
+                <a href="">Mountains</a>
+                <a href="">Gallery</a>
+                <a href="">Contact</a>
+            </nav>
+        </div>
+        <div class="flex items-center justify-center cursor-pointer"> <img class="md:hidden " src="/assets//gfx/icons/hamburgermenu.svg"></div>
+    </header>
+    <aside class="fixed bottom-0 md:top-1/3 right-1/2 md:right-0 z-50 flex flex-row md:flex-col gap-2 w-8 items-end">
+        <a href="tel:+436508420974"> 
+            <div class="asideBar">
+                <img class="w-8 h-8" src="/assets/gfx/icons/phone-icon.svg">
+            </div>
+        </a>
+        <a href="mailto: philipptichy@hotmail.com"> 
+            <div class="asideBar">
+                <img class="w-8 h-8"src="/assets/gfx/icons/mail-icon.svg">
+            </div>
+        </a>
+    </aside>
+    <section class="w-full h-[60vh] bg-hero-pattern bg-cover bg-center bg-no-repeat bg-fixed relative">
+        <div class="w-full h-full flex justify-center items-center flex-col gap-8 absolute top-0 left-0">
+            <h1 class="uppercase text-4xl text-center font-extrabold font-sans">Let's start your <br> mountain adventure!</h1>
+            <a class="buttonPrimary" href="#">SEE MORE</a>
+        </div>
+    </section>
+    <main class="w-full flex justify-center items-center flex-col gap-12">
+        <section class="flex flex-col flex-center items-center">
+            <div class="w-10/12 flex flex-col gap-6 justify-center items-center pt-12">
+                <img src="/assets/gfx/icons/quote-icon.svg">
+                <h2 class="font-bold">Welcome to <span class="uppercase">MOUNTAINS</span>
+                </h2>
+                <p class="text-center">Die Website „Mountains“ ist eine umfassende Ressource für alle, die sich für Berge und ihre einzigartige Schönheit interessieren. Die Seite bietet eine detaillierte Liste aller Berge der Welt und enthält Informationen zu ihrer geografischen Lage, Höhe, Topographie und vielem mehr. Darüber hinaus enthält die Website auch Geschichten und Bilder von Menschen, die die Berge erkundet und bestiegen haben, sowie Tipps und Anleitungen für Reisende, die sich auf den Weg machen wollen. Egal, ob Sie ein begeisterter Bergsteiger sind oder einfach nur von der majestätischen Schönheit der Berge fasziniert sind, die Website „Mountains“ ist eine wunderbare Quelle für Informationen und Inspiration.
+
+                </p>
+            </div>
+        </section>
+        <section class="w-full flex justify-center items-center">
+            <div class="w-10/12 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+                <div class="gridDiv">
+                    <img src="/assets/img/aconcagua.jpg">
+                    <div class="gradient">
+                    <span>Aconcagua</span>
+                    </div>
+                </div>
+                <div class="gridDiv">
+                    <img src="/assets/img/großglockner.jpg">
+                    <div class="gradient">
+                    <span>Großglockner</span>
+                    </div>
+                </div>
+                <div class="gridDiv">
+                    <img src="/assets/img/mtcook.jpg">
+                    <div class="gradient">
+                    <span>Mt.Cook</span>
+                    </div>
+                </div>
+                <div class="gridDiv">
+                    <img src="/assets/img/lhotse.jpg">
+                    <div class="gradient">
+                    <span>Lhotse</span>
+                    </div>
+                </div>
+                <div class="gridDiv">
+                    <img src="/assets/img/weisshorn.jpg">
+                    <div class="gradient">
+                    <span>Weisshorn</span>
+                    </div>
+                </div>
+                <div class="gridDiv">
+                    <img src="/assets/img/alpamayo.jpg">
+                    <div class="gradient">
+                    <span>Alpamayo</span>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+        <section class="w-full flex justify-center items-center">
+            <div class="w-10/12 flex justify-between items-center gap-8 md:gap-6 flex-col md:flex-row">
+                <div class="flex flex-col w-full md:w-3/6 gap-8">
+                    <h2 class="font-bold"><span class="uppercase">Mountains</span> are <span class="uppercase">great!</span></h2>
+                    <p>Die Website „Mountains“ ist eine umfassende Ressource für alle, die sich für Berge und ihre einzigartige Schönheit interessieren. Die Seite bietet eine detaillierte Liste aller Berge der Welt und enthält Informationen zu ihrer geografischen Lage, Höhe, Topographie und vielem mehr. Darüber hinaus enthält die Website auch Geschichten und Bilder von Menschen, die die Berge erkundet und bestiegen haben, sowie Tipps und Anleitungen für Reisende, die sich auf den Weg machen wollen. Egal, ob Sie ein begeisterter Bergsteiger sind oder einfach nur von der majestätischen Schönheit der Berge fasziniert sind, die Website „Mountains“ ist eine wunderbare Quelle für Informationen und Inspiration.</p>
+                    <a class="buttonPrimary" href="#">Link zu Wikipedia</a>
+                </div>
+                <div class="relative w-full md:w-3/6">
+                    <img class="w-full h-full object-cover rounded-xl" src="/assets/img/weisshorn.jpg">
+                    <div class="flex justify-center items-center bg-blue w-14 h-14 rounded-full absolute -left-4 -top-4">
+                        <img class="object-contain w-10 h-10" src="/assets/gfx/icons/mountain-icon.svg">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="w-full flex justify-center items-center bg-blue">
+            <div class="w-10/12 flex justify-around flex-col md:flex-row gap-6">
+                <div class="py-6 md:py-12 w-full md:w-3/6">
+                    <h2 class="uppercase text-white font-bold mb-2 md:mb-6">Newsletter</h2>
+                    <div class="w-full flex  border-white rounded-lg">
+                        <input class="box-border outline-none w-full p-2 bg-blue border-2 text-white rounded-l-lg border-white placeholder:text-white" placeholder="EMAIL">
+                        <button class="uppercase font-sans font-bold text-blue border-white border-2 bg-white p-2 rounded-r-lg">ABSENDEN</button>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center md:items-end py-6 md:py-12 w-full md:w-3/6">
+                    <h2 class="uppercase text-white font-bold mb-2 md:mb-6">Social Media</h2>
+                    <div class="flex justify-center md:justify-end gap-0 md:gap-4">
+                        <a class="socialLinks" href="http://www.facebook.com" target="_blank"><img class="imgNews hoverScale" src="/assets/gfx/socials/facebook-icon.svg"></a>
+                        <a class="socialLinks"  href="http://www.linkedin.com" target="_blank"><img class="imgNews hoverScale"src="/assets/gfx/socials/linkedin-icon.svg"></a>
+                        <a class="socialLinks"  href="http://www.instagram.com" target="_blank"><img class="imgNews hoverScale" src="/assets/gfx/socials/instagram-icon.svg"></a>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="flex justify-center p-8 bg-white">
+        <div class="w-10/12 flex justify-between items-center flex-col md:flex-row gap-6">
+            <a href=""><img class="w-28 hoverScale" src="/assets/gfx/logo.png"></a>
+            <nav class="flex gap-4">
+                <a href="">Datenschutz</a>
+                <a href="">Impressum</a>
+            </nav>
+        </div>
+    </footer>
+    <p class="text-center pb-12"> © Philipp </p>
+</body>
+</html>
